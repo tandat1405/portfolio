@@ -1,30 +1,30 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "dat.dev portfolio",
+		name: "dat.dev",
+		email: "tandat1405@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
 		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		linkedin: "https://www.linkedin.com/in/tandat1405/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "A Mobile-focused developer with additional experience in web development",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a qualified mobile developer with over 7 years of professional experience, including 5+ years specializing in React Native and 2 years in Android (Java). I bring strong creative and analytical skills, a sharp eye for detail, and proven experience delivering high-quality mobile applications. A collaborative team player with excellent English communication skills (both written and spoken), I am highly adaptable, eager to learn new technologies, and driven by a proactive, can-do mindset.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Dat Nguyen. I live in Ho Chi Minh City, Vietnam, where I design the future.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I am a qualified mobile developer with over 7 years of professional experience, including 5+ years specializing in React Native and 2 years in Android (Java). I bring strong creative and analytical skills, a sharp eye for detail, and proven experience delivering high-quality mobile applications. A collaborative team player with excellent English communication skills (both written and spoken), I am highly adaptable, eager to learn new technologies, and driven by a proactive, can-do mindset.",
 	},
 
 	articles: {
@@ -35,48 +35,62 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Participant app",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"A mobile and web app builder that enables customers to customize solutions for their business and generate their own applications. Its primary purpose is to help organizations collect participant and patient information to support healthcare research.",
+			logo: "https://notificare.com/static/08e587971af3313079db68d8d2b4d446/d0198/react-native-and-expo-cover.jpg",
 		},
 
 		{
-			title: "Project 2",
+			title: "Viettennis",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"An application for Vietnamese tennis players to view tournament details, register for participation, and track player rankings.",
+			logo: "https://play-lh.googleusercontent.com/FoSwuqLc8Rw6DqTM4e7M0q8sCP5uGEEqZ1iSMQ-FVjsNp_aRJX6Hj2Bxh7HsLV1HqQ=w240-h480-rw",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://play.google.com/store/apps/details?id=com.viettennis",
 		},
 
 		{
-			title: "Project 3",
+			title: "Seland",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"A mobile application designed to connect real estate sellers with potential customers.",
+			logo: "https://play-lh.googleusercontent.com/QS8b_kFCICAXJTX0pVB7M0efIBSWgKY10H4YW-O6zHhIO8FJx8eqHN74dOLvCcpi0g=w480-h960-rw",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://play.google.com/store/apps/details?id=com.seland",
 		},
 
 		{
-			title: "Project 4",
+			title: "Retizy",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A digital solution designed to transform the real estate industry into the 4.0 era, enabling sales agents to reduce manual work and improve efficiency.",
+			logo: "https://play-lh.googleusercontent.com/1AEAElSq-vCybTn_fLbwtKNOo3NyEUDvlX1WemHPAe2Fu6vaT_ZE34VBqTJYa6ogkg=w480-h960-rw",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://play.google.com/store/apps/details?id=com.reti.agent.app",
 		},
 
 		{
-			title: "Project 5",
+			title: "Collabos",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A desktop and web-based application serving as a call center solution.",
+			logo: "https://www.shutterstock.com/image-vector/headphones-logo-can-be-used-600nw-1612779220.jpg",
+		},
+
+		{
+			title: "Mitel One",
+			description:
+				"A communication application for companies, enabling employees to stay connected via calls, messages, and video meetings.",
+			logo: "https://play-lh.googleusercontent.com/HtZhBqwi0Y5CAMEILv0CVkLa1JcB1C-_014Zv1AtUUH9uWfTDctOpOoKPJqJW1twpEM=w480-h960-rw",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://play.google.com/store/apps/details?id=com.mitel.one.android",
+		},
+
+		{
+			title: "Mitel Connect",
+			description:
+				"A mobile application that transforms a smartphone into a desk phone, enabling seamless business communication on the go.",
+			logo: "https://play-lh.googleusercontent.com/HPsZ1djqZq1vwihbNzocjYFQavOFmcJZ04CFUY6aEhM4JxeoHxMAd1qhS41ONI41bA=w480-h960-rw",
+			linkText: "View Project",
+			link: "https://play.google.com/store/apps/details?id=com.shoretel.connect",
 		},
 	],
 };

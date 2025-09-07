@@ -3,7 +3,6 @@
 .project {
 	mix-blend-mode: normal;
 	border-radius: 20px;
-	opacity: 0.8;
 	height: 100%;
 }
 
@@ -13,12 +12,16 @@
 
 .project:hover {
 	background: #fafafa;
-	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
 
 .project:hover .project-link {
 	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+.project:hover .project-title {
+	color: #178f81;
 	transition: color 0.3s ease-in-out;
 }
 
