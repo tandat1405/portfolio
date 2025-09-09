@@ -47,7 +47,7 @@ const Projects = () => {
 							I've worked on a variety of projects over the years
 							and I'm proud of the progress I've made. I always
 							seek joy in my work and projects. Trying to keep
-							anything clean and best.
+							anything clean, simple and best.
 						</div>
 
 						<div className="projects-list">

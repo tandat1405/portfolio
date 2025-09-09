@@ -17,7 +17,7 @@
 }
 
 .nav-background {
-	width: 320px;
+	width: 160px;
 	height: 40px;
 	padding-left: 0%;
 	padding-right: 0%;
@@ -55,7 +55,7 @@
 	transition: color 0.3s ease-in-out;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 160px) {
 	.navbar {
 		margin-left: 25%;
 		margin-right: 25%;

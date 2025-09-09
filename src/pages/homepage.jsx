@@ -13,6 +13,7 @@ import SEO from "../data/seo";
 import INFO from "../data/user";
 
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import Skills from "../components/skill/skills";
 import "./styles/homepage.css";
 
 const Homepage = () => {
@@ -88,11 +89,11 @@ const Homepage = () => {
 								</div>
 								<br />
 								<div className="title homepage-title">
-									{INFO.homepage.title}
+									{INFO.about.title}
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									{INFO.about.description}
 								</div>
 							</div>
 
@@ -100,7 +101,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="mobile-ui.jpg"
+											src="face.jpg"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -122,11 +123,32 @@ const Homepage = () => {
 							</a>
 						</div>
 
-						<div className="homepage-projects">
-							<AllProjects />
+						<div className="homepage-socials">
+							<Skills />
 						</div>
 
-						<div className="homepage-after-title">
+						<div className="homepage-projects">
+							<div className="projects-container">
+								<div className="title projects-title">
+									Things I’ve made trying to put my dent in
+									the universe.
+								</div>
+
+								<div className="subtitle projects-subtitle">
+									I've worked on a variety of projects over
+									the years and I'm proud of the progress I've
+									made. I always seek joy in my work and
+									projects. Trying to keep anything clean,
+									simple and best.
+								</div>
+
+								<div className="projects-list">
+									<AllProjects />
+								</div>
+							</div>
+						</div>
+
+						<div className="homepage-projects">
 							{/* <div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
@@ -144,7 +166,7 @@ const Homepage = () => {
 								))}
 							</div> */}
 
-							<div className="homepage-works">
+							<div className="projects-container">
 								<Works />
 							</div>
 						</div>

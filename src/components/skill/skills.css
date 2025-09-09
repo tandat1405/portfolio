@@ -1,0 +1,29 @@
+.logo-container {
+  width: 100%;
+  overflow: hidden;
+  background: white;
+  padding: 20px 0;
+}
+
+.logo-slider {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll 30s linear infinite;
+}
+
+.logo-slider img {
+  height: 60px;
+  width: 100px;
+  margin: 0 20px;
+  display: inline-block;
+  object-fit: contain;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

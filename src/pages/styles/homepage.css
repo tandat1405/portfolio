@@ -92,6 +92,12 @@
 	flex-basis: 600px;
 	padding-top: 30px;
 }
+.expertise-container {
+		flex-basis: auto;
+		display: flex;
+		gap: 16px;
+		padding-top: 16px;
+	}
 
 @media (max-width: 1024px) {
 	.homepage-first-area {
@@ -147,4 +153,5 @@
 		margin-left: -25px;
 		margin-right: -25px;
 	}
+	
 }

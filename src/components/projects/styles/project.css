@@ -34,7 +34,12 @@
 }
 
 .project-logo img {
-	width: 100%;
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+	border-radius: 8px;
+	border: 2px solid #ddd;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* shadow */
 }
 
 .project-title {
@@ -70,6 +75,6 @@
 
 @media (max-width: 600px) {
 	.project {
-		height: 300px;
+		height: 400px;
 	}
 }

@@ -24,7 +24,7 @@ const INFO = {
 	about: {
 		title: "I’m Dat Nguyen. I live in Ho Chi Minh City, Vietnam, where I design the future.",
 		description:
-			"I am a qualified mobile developer with over 7 years of professional experience, including 5+ years specializing in React Native and 2 years in Android (Java). I bring strong creative and analytical skills, a sharp eye for detail, and proven experience delivering high-quality mobile applications. A collaborative team player with excellent English communication skills (both written and spoken), I am highly adaptable, eager to learn new technologies, and driven by a proactive, can-do mindset.",
+			"I am a qualified mobile developer with over 7 years of professional experience, including 5+ years specializing in React Native (including additional experience in Web development with ReactJS, Expo Web) and 2 years in Android (Java). I bring strong creative and analytical skills, a sharp eye for detail, and proven experience delivering high-quality mobile applications. A collaborative team player with excellent English communication skills (both written and spoken), I am highly adaptable, eager to learn new technologies, and driven by a proactive, can-do mindset.",
 	},
 
 	articles: {
@@ -37,15 +37,15 @@ const INFO = {
 		{
 			title: "Participant app",
 			description:
-				"A mobile and web app builder that enables customers to customize solutions for their business and generate their own applications. Its primary purpose is to help organizations collect participant and patient information to support healthcare research.",
-			logo: "https://notificare.com/static/08e587971af3313079db68d8d2b4d446/d0198/react-native-and-expo-cover.jpg",
+				"A mobile and web app builder that empowers businesses to create customized solutions and generate their own applications, primarily designed to help organizations collect participant and patient data to support healthcare research.",
+			logo: "participant.png",
 		},
 
 		{
 			title: "Viettennis",
 			description:
 				"An application for Vietnamese tennis players to view tournament details, register for participation, and track player rankings.",
-			logo: "https://play-lh.googleusercontent.com/FoSwuqLc8Rw6DqTM4e7M0q8sCP5uGEEqZ1iSMQ-FVjsNp_aRJX6Hj2Bxh7HsLV1HqQ=w240-h480-rw",
+			logo: "viettennis.png",
 			linkText: "View Project",
 			link: "https://play.google.com/store/apps/details?id=com.viettennis",
 		},
@@ -54,7 +54,7 @@ const INFO = {
 			title: "Seland",
 			description:
 				"A mobile application designed to connect real estate sellers with potential customers.",
-			logo: "https://play-lh.googleusercontent.com/QS8b_kFCICAXJTX0pVB7M0efIBSWgKY10H4YW-O6zHhIO8FJx8eqHN74dOLvCcpi0g=w480-h960-rw",
+			logo: "seland.png",
 			linkText: "View Project",
 			link: "https://play.google.com/store/apps/details?id=com.seland",
 		},
@@ -63,7 +63,7 @@ const INFO = {
 			title: "Retizy",
 			description:
 				"A digital solution designed to transform the real estate industry into the 4.0 era, enabling sales agents to reduce manual work and improve efficiency.",
-			logo: "https://play-lh.googleusercontent.com/1AEAElSq-vCybTn_fLbwtKNOo3NyEUDvlX1WemHPAe2Fu6vaT_ZE34VBqTJYa6ogkg=w480-h960-rw",
+			logo: "retizy.png",
 			linkText: "View Project",
 			link: "https://play.google.com/store/apps/details?id=com.reti.agent.app",
 		},
@@ -72,14 +72,14 @@ const INFO = {
 			title: "Collabos",
 			description:
 				"A desktop and web-based application serving as a call center solution.",
-			logo: "https://www.shutterstock.com/image-vector/headphones-logo-can-be-used-600nw-1612779220.jpg",
+			logo: "collabos.png",
 		},
 
 		{
 			title: "Mitel One",
 			description:
 				"A communication application for companies, enabling employees to stay connected via calls, messages, and video meetings.",
-			logo: "https://play-lh.googleusercontent.com/HtZhBqwi0Y5CAMEILv0CVkLa1JcB1C-_014Zv1AtUUH9uWfTDctOpOoKPJqJW1twpEM=w480-h960-rw",
+			logo: "mitelone.png",
 			linkText: "View Project",
 			link: "https://play.google.com/store/apps/details?id=com.mitel.one.android",
 		},
@@ -88,7 +88,7 @@ const INFO = {
 			title: "Mitel Connect",
 			description:
 				"A mobile application that transforms a smartphone into a desk phone, enabling seamless business communication on the go.",
-			logo: "https://play-lh.googleusercontent.com/HPsZ1djqZq1vwihbNzocjYFQavOFmcJZ04CFUY6aEhM4JxeoHxMAd1qhS41ONI41bA=w480-h960-rw",
+			logo: "mitelconnect.png",
 			linkText: "View Project",
 			link: "https://play.google.com/store/apps/details?id=com.shoretel.connect",
 		},
