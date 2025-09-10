@@ -1,6 +1,6 @@
 const INFO = {
 	main: {
-		title: "dat.dev portfolio",
+		title: "dat.dev",
 		name: "dat.dev",
 		email: "tandat1405@gmail.com",
 		logo: "../logo.png",
@@ -42,37 +42,12 @@ const INFO = {
 		},
 
 		{
-			title: "Viettennis",
+			title: "Mitel Connect",
 			description:
-				"An application for Vietnamese tennis players to view tournament details, register for participation, and track player rankings.",
-			logo: "viettennis.png",
+				"A mobile application that transforms a smartphone into a desk phone, enabling seamless business communication on the go.",
+			logo: "mitelconnect.png",
 			linkText: "View Project",
-			link: "https://play.google.com/store/apps/details?id=com.viettennis",
-		},
-
-		{
-			title: "Seland",
-			description:
-				"A mobile application designed to connect real estate sellers with potential customers.",
-			logo: "seland.png",
-			linkText: "View Project",
-			link: "https://play.google.com/store/apps/details?id=com.seland",
-		},
-
-		{
-			title: "Retizy",
-			description:
-				"A digital solution designed to transform the real estate industry into the 4.0 era, enabling sales agents to reduce manual work and improve efficiency.",
-			logo: "retizy.png",
-			linkText: "View Project",
-			link: "https://play.google.com/store/apps/details?id=com.reti.agent.app",
-		},
-
-		{
-			title: "Collabos",
-			description:
-				"A desktop and web-based application serving as a call center solution.",
-			logo: "collabos.png",
+			link: "https://play.google.com/store/apps/details?id=com.shoretel.connect",
 		},
 
 		{
@@ -85,13 +60,41 @@ const INFO = {
 		},
 
 		{
-			title: "Mitel Connect",
+			title: "Retizy",
 			description:
-				"A mobile application that transforms a smartphone into a desk phone, enabling seamless business communication on the go.",
-			logo: "mitelconnect.png",
+				"A digital solution designed to transform the real estate industry into the 4.0 era, enabling sales agents to reduce manual work and improve efficiency.",
+			logo: "retizy.png",
 			linkText: "View Project",
-			link: "https://play.google.com/store/apps/details?id=com.shoretel.connect",
+			link: "https://play.google.com/store/apps/details?id=com.reti.agent.app",
 		},
+
+		{
+			title: "Seland",
+			description:
+				"A mobile application designed to connect real estate sellers with potential customers.",
+			logo: "seland.png",
+			linkText: "View Project",
+			link: "https://play.google.com/store/apps/details?id=com.seland",
+		},
+
+		{
+			title: "Viettennis",
+			description:
+				"An application for Vietnamese tennis players to view tournament details, register for participation, and track player rankings.",
+			logo: "viettennis.png",
+			linkText: "View Project",
+			link: "https://play.google.com/store/apps/details?id=com.viettennis",
+		},
+
+		
+
+		{
+			title: "Collabos",
+			description:
+				"A desktop and web-based application serving as a call center solution.",
+			logo: "collabos.png",
+		},
+
 	],
 };
 

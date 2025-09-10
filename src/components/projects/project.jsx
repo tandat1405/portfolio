@@ -11,7 +11,12 @@ const Project = (props) => {
 	return (
 		<React.Fragment>
 			<div className="project">
-				<Link to={link}>
+				<Link
+					to={link}
+					target="_blank"
+					rel="noopener noreferrer"
+					onClick={(e) => !link && e.preventDefault()}
+				>
 					<div className="project-container">
 						<div className="project-logo">
 							<img src={logo} alt="logo" />
